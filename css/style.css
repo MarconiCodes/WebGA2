@@ -691,13 +691,21 @@ a:focus {
   font-family: 'Ubuntu', sans-serif;
 }
 .members .members-content {
-    font-weight: 500;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-left: 50px;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    width: 80%;
     padding-bottom: 100px;
 }
+
+.members .members-content ul {
+  list-style-type: none;
+}
+.members .members-content ul li {
+  padding: 10px 0;
+}
+
+
 .members .tittle{
     position: relative;
     text-align: center;
@@ -858,6 +866,7 @@ a:focus {
 /* Gallery styling */
 .gallery{
   font-family: 'Ubuntu', sans-serif;
+  padding: 0;
 }
 .gallery .tittle{
     position: relative;
@@ -889,12 +898,17 @@ a:focus {
     background: #fff;
     transform: translateX(-50%);
 }
+
+
 .gallery .gallery-content {
-  margin-left: 170px;
+  margin: auto;
+  width: 99%;
+  padding: 0;
+  text-align: center;
 }
 .gallery .gallery-content a img{
   transition: 1s;
-  margin: 15px;
+  margin-top: 4PX;
 }
 .gallery .gallery-content a img:hover{
   filter: grayscale(100%);
